@@ -20,8 +20,8 @@ Sample:
 
 ``` objective-c
 GUAAlertView *v = [GUAAlertView alertViewWithTitle:@"title"
-                                           message:alert[@"message"]
-                                       buttonTitle:alert[@"buttonTitle"]
+                                           message:@"message"
+                                       buttonTitle:@"buttonTitle"
                                buttonTouchedAction:^{
                                        NSLog(@"button touched");
                                    } dismissAction:^{
